@@ -7,7 +7,6 @@ using System.Diagnostics;
 
 namespace HammingCode
 {
-    [DebuggerDisplay("{binary}")]
     class Binary : IEnumerable<bool>
     {
         List<bool> binary;
